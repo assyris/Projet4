@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Indie Flower', cursive;    
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    z-index: 0;
+}
+li{
+    list-style-type: none;
+}
+.tableau{
+    background-image: url("optimisation/img/old-black-background.jpg");
+    width: 100%;
+    height: 300%;
+    position: absolute;
+    z-index: -2;
+}
+.chouette h1{
+    font-size: 72px;
+    z-index: 1;
+}
+.chouette img{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.section{
+    margin-top: 300px;
+}
+.comparatif{
+    margin-top: 10rem;
+}
+.comparatif-img{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.comparatif-img img{
+    margin: auto;
+    width: 70%;   
+}
+.original img{
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0.5s;
+}
+.original img:hover{
+    transform: translateX(250px) scale(2);
+}
+.optimisé img{
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0.5s;
+}
+.optimisé img:hover{
+    transform: translateX(-250px) scale(2);
+    
+  }
