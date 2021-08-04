@@ -8,7 +8,7 @@ body{
     z-index: 0;
 }
 .tableau{
-    background-image: url("optimisation/img/old-black-background.jpg");
+    background-image: url("optimisation/img/old-black-background.png");
     width: 100%;
     height: 200%;
     position: absolute;
